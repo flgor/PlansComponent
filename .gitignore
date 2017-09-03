@@ -25,4 +25,5 @@ hs_err_pid*
 .idea/
 *.iml
 
-resources/static/built/
+src/main/resources/static/built/
+node_modules/
