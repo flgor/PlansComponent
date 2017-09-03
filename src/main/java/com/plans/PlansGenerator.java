@@ -27,6 +27,7 @@ public class PlansGenerator {
         planData.setBillingCycle(1);
         planData.setBillingCycle(autogenerateBillingCycle());
         planData.setEnabled(random.nextBoolean());
+        planData.setPrice((double)random.nextInt(50));
 
         return planData;
     }

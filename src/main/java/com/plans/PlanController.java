@@ -9,7 +9,7 @@ import java.util.List;
 @Controller
 public class PlanController {
 
-    @GetMapping("/plans")
+    @GetMapping("/plan")
     public @ResponseBody List<PlanData> getPlans() {
         return new PlansGenerator(15).generate();
     }
