@@ -1,4 +1,4 @@
-package com.plans.plans;
+package com.plans;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
